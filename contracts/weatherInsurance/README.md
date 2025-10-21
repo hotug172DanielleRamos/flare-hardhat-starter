@@ -37,3 +37,5 @@ The `MinTempAgency` and `WeatherIdAgency` contract represent two examples of how
 - A loss in the case of the `MinTempAgency` is that the minimum temperature of a day fell bellow the threshold defined in the policy.
 - For the `WeatherIdAgency` the loss is decided using the [weather condition codes](https://openweathermap.org/weather-conditions).
   If a code falling in the same category as the threshold in the policy, and exceeding it, is returned through the current weather API, that counts as a loss.
+
+<!-- Auto-update: 2025-10-21T08:53:23.034502 -->
